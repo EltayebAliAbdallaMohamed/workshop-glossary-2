@@ -1,0 +1,162 @@
+{
+  "topics": [
+    {
+      "id": "myPresentationID",
+
+      "title": "My Presentation Title",
+
+      "slides": [
+
+        {
+          "layout": "standard",
+
+          "heading": "Welcome",
+
+          "content": "Introduce the presentation.\n• Objective 1\n• Objective 2\n• Objective 3",
+
+          "image": "",
+
+          "imageAlt": "",
+
+          "notes": "Welcome the audience and introduce the topic.",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "",
+
+          "answer": ""
+        },
+
+
+        {
+          "layout": "image-right",
+
+          "heading": "How Is the Glossary Used?",
+
+          "content": "Discuss how teachers and students use the glossary.\n• Vocabulary review\n• Exam preparation\n• Independent learning",
+
+          "image": "images/vocab.png",
+
+          "imageAlt": "A page from the Q Skills glossary",
+
+          "notes": "Ask the audience how they currently use the glossary.",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "",
+
+          "answer": ""
+        },
+
+
+        {
+          "layout": "image-left",
+
+          "heading": "Why Verbs Matter",
+
+          "content": "Verbs help learners understand relationships between words and predict meaning from context.",
+
+          "image": "images/verbs.png",
+
+          "imageAlt": "Illustration showing verbs and actions",
+
+          "notes": "Emphasize the importance of action words.",
+
+          "arabic": "تساعد الأفعال المتعلمين على فهم العلاقات بين الكلمات.",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "Why are verbs important?",
+
+          "answer": "They help learners understand meaning and context."
+        },
+
+
+        {
+          "layout": "standard",
+
+          "heading": "Listening Example",
+
+          "content": "Listen and identify the missing verb.",
+
+          "image": "",
+
+          "imageAlt": "",
+
+          "notes": "Play the audio twice.",
+
+          "arabic": "",
+
+          "audio": "audio/listening1.mp3",
+
+          "video": "",
+
+          "question": "What verb did you hear?",
+
+          "answer": "drive"
+        },
+
+
+        {
+          "layout": "standard",
+
+          "heading": "Video Example",
+
+          "content": "Watch the video and identify the key vocabulary.",
+
+          "image": "",
+
+          "imageAlt": "",
+
+          "notes": "Pause the video after the first minute.",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "video/example.mp4",
+
+          "question": "",
+
+          "answer": ""
+        },
+
+
+        {
+          "layout": "standard",
+
+          "heading": "Conclusion",
+
+          "content": "• Verbs support contextual guessing.\n• Verbs improve listening comprehension.\n• Verbs should be integrated into glossary instruction.",
+
+          "image": "",
+
+          "imageAlt": "",
+
+          "notes": "Summarize the key takeaways.",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "",
+
+          "answer": ""
+        }
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "topics": [
+    {
+      "id": "myPresentationID",
+
+      "title": "My Presentation Title",
+
+      "slides": [
+
+       
+
+        {
+          "layout": "image-left",
+
+          "heading": "",
+
+          "content": "",
+
+          "image": "images/collect_verb_ask_ChatGPT_1.png",
+
+          "imageAlt": "",
+
+          "notes": "",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "",
+
+          "answer": ""
+        },
+
+
+        {
+          "layout": "image-left",
+
+          "heading": "",
+
+          "content": "",
+
+          "image": "images/collect_verb_ask_ChatGPT_2.png",
+
+          "imageAlt": "",
+
+          "notes": "",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "",
+
+          "answer": ""
+        },
+
+
+        {
+          "layout": "image-left",
+
+          "heading": "",
+
+          "content": "",
+
+          "image": "images/hobby_verb_ask_ChatGPT_1.png",
+
+          "imageAlt": "",
+
+          "notes": "",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "",
+
+          "answer": ""
+        },
+
+
+        {
+          "layout": "image-left",
+
+          "heading": "",
+
+          "content": "",
+
+          "image": "images/hobby_verb_ask_ChatGPT_2.png",
+
+          "imageAlt": "",
+
+          "notes": "",
+
+          "arabic": "",
+
+          "audio": "",
+
+          "video": "",
+
+          "question": "",
+
+          "answer": ""
+        }
+        
+      ]
+    }
+  ]
+}

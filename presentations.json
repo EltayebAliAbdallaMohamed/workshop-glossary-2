@@ -1,0 +1,18 @@
+
+{
+  "presentations": [
+    {
+      "title": "Enhancing Q Skills - The Glossary",
+      "file": "topics_master.json"
+    },
+    {
+      "title": "Use Case Scenario - Scenarios",
+      "file": "glossary_use_case_scenarios.json"
+    },
+    {
+      "title": "AI - Screenshots",
+      "file": "ai_screenshots.json"
+    }
+
+  ]
+}

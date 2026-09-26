@@ -1,0 +1,65 @@
+{
+  "topics": [
+    {
+      "id": "glossaryUseKSU",
+      "title": "Use-case-Scenarios",
+      "slides": [
+        {
+          "heading": "Use Case 1: Preview Vocabulary",
+          "content": "Teacher selects 5–10 glossary words before starting a unit.\n• Students listen to the words\n• Discuss meanings\n• Predict the topic.\nGoal: Activate background knowledge and create interest.",
+          "image": "",
+          "notes": "Introduce practical ways teachers can use the Q Skills glossary."
+        },
+        {
+          "heading": "Use Case 2: Vocabulary Building",
+          "content": "Teacher selects a glossary noun.\n• Students identify common verbs used with the noun.\n• Examples:\n hobby → have, pursue, enjoy, develop, take up\ninformation → collect, gather, share, provide",
+          "image": "",
+          "notes": "Helps students build vocabulary networks."
+        },
+       
+        {
+          "heading": "Use Case 3: Vocabulary Building",
+          "content": "Teacher selects a glossary verb.\n• Students identify common nouns that occur with the verb.\n• Examples:\ncollect → information, data, money, stamps, coins\nmake → decision, plan, mistake, effort, appointment",
+          "image": "",
+          "notes": "Supports vocabulary expansion through collocations."
+        },
+        {
+          "heading": "Use Case 4: Context Clue Training",
+          "content": "Teacher creates sentences containing glossary words.\n• Students use context clues to guess meanings before checking definitions.\nGoal: Develop independent vocabulary-learning skills.",
+          "image": "",
+          "notes": "Can be used before introducing dictionary definitions."
+        },
+        {
+          "heading": "Use Case 5: Student Example Sentences",
+          "content": "Students create original sentences using glossary words.\n• Teacher provides feedback on meaning, grammar, and collocations.\nGoal: Move vocabulary from recognition to active use",
+          "image": "",
+          "notes": "Encourages deeper processing of vocabulary."
+        },
+        {
+          "heading": "Use Case 7: Use AI- Show Screenshots",
+          "content": "Students use AI tools to explore glossary words.\nExample tasks:\n• Find common collocations.\n• Generate example sentences.\n• Compare word meanings.\nGoal: Promote learner autonomy.",
+          "image": "",
+          "notes": "Useful for independent study."
+        },
+        {
+          "heading": "Use Case 8: Vocabulary Review Games",
+          "content": "Teacher uses glossary words in quizzes, matching activities, and speaking games.\n• Students review words from previous units.\nGoal: Improve long-term retention.",
+          "image": "",
+          "notes": "Supports vocabulary recycling."
+        },
+        {
+          "heading": "Use Case 9: Presentation Preparation",
+          "content": "Students select glossary words related to a presentation topic.\n• They prepare definitions, collocations, and example sentences.\nGoal: Strengthen academic speaking skills.",
+          "image": "",
+          "notes": "Useful for Continuous Assessment presentations."
+        },
+        {
+          "heading": "Use Case 10: Reflection and Self-Assessment",
+          "content": "Students review glossary words and identify:\n• Words they know\n• Degrees of nowledge\n• Words they still need to learn\nGoal: Develop self-monitoring skills.",
+          "image": "",
+          "notes": "Encourages learner responsibility."
+        }
+      ]
+    }
+  ]
+}

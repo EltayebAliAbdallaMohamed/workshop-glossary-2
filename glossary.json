@@ -1,0 +1,99 @@
+{
+  "topics": [
+    {
+      "id": "verbsInVocabularyLearning",
+      "title": "Enhancing Q Skills - The Glossary",
+      "slides": [
+        {
+          "layout": "image-right",
+          "heading": "Verbs & Nouns in a Q Skills Glossary",
+          "content": "",
+          "image": "",
+          "imageAlt": "A page from the Q Skills glossary",
+
+          "notes": "Welcome the audience. Introduce the importance of verbs in vocabulary learning."
+          
+        },
+        {
+          "heading": "Agenda",
+          "content": "\n• How teachers and students use the glossary?\n• Advantages of adding verbs\n• Recommendations",
+          "image": "",
+          "notes": "Explain the structure of Q Skills vocabulary lists."
+        },
+        {
+          "heading": "How is the glossary used?",
+          "content": "\n• How do teachers and students use the glossary in the classroom? \n• How do students use the glossary outside the classroom? \n• Do you refer to the teaching notes during lesson preparation?\n• What do the teaching notes tell you about the glossary?",
+          "image": "vocab.png",
+          "notes": ""
+        },
+       
+        {
+          "heading": "Why Verbs Matter?",
+          "content": "Verbs act as cognitive anchors. They help learners predict meaning, understand relationships, and build mental models of actions and events.",
+          "image": "",
+          "notes": "Highlight benefits for visually impaired learners."
+        },
+        {
+          "heading": "How Verbs Support Meaning?",
+          "content": "Examples:\n• She wears a ___\n• He drives a ___\n• They cook the ___\nVerbs narrow possibilities and improve listening comprehension.",
+          "image": "",
+          "notes": "Ask audience to guess the missing nouns."
+        },
+        {
+          "heading": "Verbs Reveal Word Function",
+          "content": "Verbs show how nouns participate in actions:\n• Something you hold\n• Something you visit\n• Something you eat\n• Something you fix",
+          "image": "",
+          "notes": "Explain selectional restrictions."
+        },
+        {
+          "heading": "Cognitive Benefits",
+          "content": "Verb-rich instruction improves:\n• Semantic networks\n• Memory retention\n• Contextual guessing\n• Top-down listening skills",
+          "image": "",
+          "notes": "Mention auditory scaffolding."
+        },
+        {
+          "heading": "Shortcomings of Glossaries in Q Skills",
+          "content": "Current word lists:\n• Focus on nouns and adjectives\n• Provide very few or no verb-noun collocations\n• Reduce context-based inference",
+          "image": "",
+          "notes": "Explain gaps in the textbook."
+        },
+        {
+          "heading": "Weak Context Example",
+          "content": "Word list:\n• apartment\n• neighbor\n• noise\nWithout verbs, students struggle to understand relationships.",
+          "image": "",
+          "notes": "Show why noun-only lists are insufficient."
+        },
+        {
+          "heading": "Strong Context Example",
+          "content": "Add verbs:\n• live\n• complain\n• hear\nLearners infer relationships and meaning more easily.",
+          "image": "",
+          "notes": "Demonstrate power of verb–noun collocations."
+        },
+        {
+          "heading": "Recommendations / Use Case Scenarios",
+          "content": "Enhance Q Skills by:\n• Adding high-frequency verbs\n• Pairing nouns with collocating verbs\n• Including verbs in pre-teaching\n• Using verb–noun frames",
+          "image": "",
+          "notes": "Provide concrete suggestions."
+        },
+        {
+          "heading": "Teacher Strategies",
+          "content": "Teachers can:\n• Introduce verbs before nouns\n• Use guiding questions\n• Create verb-based cloze tasks\n• Encourage guessing nouns from actions",
+          "image": "",
+          "notes": "Offer practical classroom strategies."
+        },
+        {
+          "heading": "Impact on Learners",
+          "content": "Verb-focused instruction improves:\n• Listening comprehension\n• Vocabulary retention\n• Contextual guessing\n• Confidence and accessibility",
+          "image": "",
+          "notes": "Summarize benefits."
+        },
+        {
+          "heading": "Conclusion",
+          "content": "\n• Verbs are essential scaffolds in vocabulary learning\n• Q Skills should integrate verbs as a core component of vocabulary instruction.",
+          "image": "",
+          "notes": "End with a strong call-to-action."
+        }
+      ]
+    }
+  ]
+}

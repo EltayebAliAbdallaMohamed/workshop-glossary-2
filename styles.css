@@ -1,0 +1,832 @@
+
+html,
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+}
+
+
+/* ------------------------------------------------------------
+   PRESENTATION SELECTOR
+   ------------------------------------------------------------ */
+
+.top-bar {
+
+  position: fixed;
+
+  top: 10px;
+
+  left: 20px;
+
+  z-index: 2000;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  font-size: 16px;
+
+}
+
+
+.top-bar label {
+
+  font-weight: bold;
+
+}
+
+
+#presentationSelect {
+
+  font-size: 16px;
+
+  padding: 5px 8px;
+
+  border-radius: 5px;
+
+}
+
+
+/* ============================================================
+   REVEAL.JS PRESENTATION
+   ============================================================ */
+
+.reveal {
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+/* ------------------------------------------------------------
+   SLIDE AREA
+   ------------------------------------------------------------ */
+
+.reveal .slides section {
+
+  box-sizing: border-box;
+
+  padding:
+    40px
+    60px
+    130px
+    60px;
+
+  overflow-y: auto;
+
+  overflow-x: hidden;
+
+}
+
+
+/* ============================================================
+   SLIDE HEADINGS
+   ============================================================ */
+
+.reveal h2 {
+
+  font-size: 2.3em;
+
+  line-height: 1.15;
+
+  margin-top: 0;
+
+  margin-bottom: 30px;
+
+  font-weight: bold;
+
+}
+
+
+/* ============================================================
+   SLIDE CONTENT
+   ============================================================ */
+
+.slide-content {
+
+  text-align: left;
+
+}
+
+
+.reveal .slide-content p {
+
+  font-size: 1.25em;
+
+  line-height: 1.5;
+
+  margin:
+    12px
+    0;
+
+}
+
+
+/* ------------------------------------------------------------
+   Improve bullet spacing
+   ------------------------------------------------------------ */
+
+.slide-content p {
+
+  margin-bottom: 14px;
+
+}
+
+
+/* ============================================================
+   STANDARD IMAGE
+   ============================================================ */
+
+.slide-image {
+
+  display: block;
+
+  max-width: 80%;
+
+  max-height: 430px;
+
+  margin:
+    25px
+    auto;
+
+  object-fit: contain;
+
+  border-radius: 10px;
+
+}
+
+
+/* ============================================================
+   TWO-COLUMN LAYOUT
+   ============================================================ */
+
+.two-column {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 50px;
+
+  width: 100%;
+
+  min-height: 430px;
+
+}
+
+
+/* ------------------------------------------------------------
+   Text column
+   ------------------------------------------------------------ */
+
+.column-text {
+
+  flex: 1;
+
+  min-width: 0;
+
+  text-align: left;
+
+}
+
+
+/* ------------------------------------------------------------
+   Image column
+   ------------------------------------------------------------ */
+
+.column-image {
+
+  flex: 1;
+
+  min-width: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+
+/* ------------------------------------------------------------
+   Two-column image
+   ------------------------------------------------------------ */
+
+.column-image .slide-image {
+
+  max-width: 100%;
+
+  max-height: 430px;
+
+  margin: 0;
+
+  object-fit: contain;
+
+}
+
+
+/* ============================================================
+   ARABIC TEXT
+   ============================================================ */
+
+.slide-arabic {
+
+  margin-top: 25px;
+
+  padding: 15px;
+
+  font-size: 1.2em;
+
+  line-height: 1.6;
+
+  text-align: right;
+
+}
+
+
+/* ============================================================
+   AUDIO
+   ============================================================ */
+
+.reveal audio {
+
+  margin-top: 20px;
+
+  max-width: 100%;
+
+}
+
+
+/* ============================================================
+   VIDEO
+   ============================================================ */
+
+.slide-video {
+
+  display: block;
+
+  max-width: 80%;
+
+  max-height: 400px;
+
+  margin:
+    20px
+    auto;
+
+}
+
+
+/* ============================================================
+   QUESTION
+   ============================================================ */
+
+.slide-question {
+
+  margin-top: 25px;
+
+  font-size: 1.15em;
+
+  font-weight: bold;
+
+  text-align: left;
+
+}
+
+
+/* ============================================================
+   ANSWER
+   ============================================================ */
+
+.slide-answer {
+
+  margin-top: 15px;
+
+  font-size: 1.1em;
+
+  text-align: left;
+
+}
+
+
+/* ============================================================
+   REVEAL.JS NAVIGATION
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   Navigation arrows
+   ------------------------------------------------------------ */
+
+.reveal .controls {
+
+  position: fixed;
+
+  left: 50%;
+
+  right: auto;
+
+  bottom: 75px;
+
+  transform:
+    translateX(-50%);
+
+  z-index: 1500;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 100px;
+
+}
+
+
+/* ------------------------------------------------------------
+   Left and right arrows
+   ------------------------------------------------------------ */
+
+.reveal .controls
+.navigate-left,
+
+.reveal .controls
+.navigate-right {
+
+  position: static;
+
+  margin:
+    0
+    12px;
+
+}
+
+
+/* ------------------------------------------------------------
+   Hide up/down arrows
+   ------------------------------------------------------------ */
+
+.reveal .controls
+.navigate-up,
+
+.reveal .controls
+.navigate-down {
+
+  display: none;
+
+}
+
+
+/* ============================================================
+   SLIDE NUMBER
+   ============================================================ */
+
+.reveal .slide-number {
+
+  position: fixed;
+
+  left: 50%;
+
+  right: auto;
+
+  bottom: 50px;
+
+  transform:
+    translateX(-50%);
+
+  z-index: 1500;
+
+  font-size: 16px;
+
+  padding:
+    3px
+    10px;
+
+  border-radius: 5px;
+
+}
+
+
+/* ============================================================
+   CUSTOM CONTROLS
+   ============================================================ */
+
+.custom-controls {
+
+  position: fixed;
+
+  left: 50%;
+
+  bottom: 10px;
+
+  transform:
+    translateX(-50%);
+
+  z-index: 2000;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  white-space: nowrap;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.95
+    );
+
+  padding:
+    6px
+    12px;
+
+  border-radius: 8px;
+
+}
+
+
+/* ------------------------------------------------------------
+   Custom buttons
+   ------------------------------------------------------------ */
+
+.custom-controls button {
+
+  font-size: 15px;
+
+  padding:
+    6px
+    10px;
+
+  cursor: pointer;
+
+  border:
+    1px
+    solid
+    #888;
+
+  border-radius: 5px;
+
+  background:
+    white;
+
+}
+
+
+/* ------------------------------------------------------------
+   Button hover
+   ------------------------------------------------------------ */
+
+.custom-controls button:hover {
+
+  background:
+    #eeeeee;
+
+}
+
+
+/* ------------------------------------------------------------
+   Go-to-slide label
+   ------------------------------------------------------------ */
+
+.custom-controls label {
+
+  font-size: 15px;
+
+  margin-left: 4px;
+
+}
+
+
+/* ------------------------------------------------------------
+   Go-to-slide input
+   ------------------------------------------------------------ */
+
+#slideNumber {
+
+  width: 40px;
+
+  padding: 5px;
+
+  font-size: 15px;
+
+  text-align: center;
+
+  box-sizing: border-box;
+
+}
+
+
+/* ============================================================
+   PRESENTER NOTES
+   ============================================================ */
+
+.notes-container {
+
+  position: fixed;
+
+  left: 20px;
+
+  right: 20px;
+
+  bottom: 100px;
+
+  z-index: 1200;
+
+  font-size: 15px;
+
+  padding:
+    7px
+    12px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.92
+    );
+
+  border-radius: 5px;
+
+  text-align: left;
+
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+
+  position: fixed;
+
+  bottom: 2px;
+
+  right: 15px;
+
+  z-index: 1000;
+
+  font-size: 12px;
+
+  opacity: 0.7;
+
+}
+
+
+footer p {
+
+  margin: 0;
+
+}
+
+
+footer span {
+
+  font-weight: normal;
+
+}
+
+
+/* ============================================================
+   ACCESSIBILITY
+   ============================================================ */
+
+button:focus,
+
+input:focus,
+
+select:focus {
+
+  outline:
+    3px
+    solid
+    #0066cc;
+
+  outline-offset: 2px;
+
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+
+  /* ----------------------------------------------------------
+     Presentation selector
+     ---------------------------------------------------------- */
+
+  .top-bar {
+
+    left: 10px;
+
+    right: 10px;
+
+    font-size: 14px;
+
+  }
+
+
+  #presentationSelect {
+
+    max-width: 220px;
+
+    font-size: 14px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Slide
+     ---------------------------------------------------------- */
+
+  .reveal .slides section {
+
+    padding:
+      35px
+      25px
+      130px
+      25px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Heading
+     ---------------------------------------------------------- */
+
+  .reveal h2 {
+
+    font-size: 1.5em;
+
+    margin-bottom: 20px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Body text
+     ---------------------------------------------------------- */
+
+  .reveal .slide-content p {
+
+    font-size: 1em;
+
+    line-height: 1.4;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Two columns become one column
+     ---------------------------------------------------------- */
+
+  .two-column {
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    min-height: 0;
+
+  }
+
+
+  .column-text,
+
+  .column-image {
+
+    width: 100%;
+
+    flex: none;
+
+  }
+
+
+  .column-image .slide-image {
+
+    max-height: 300px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Reveal navigation
+     ---------------------------------------------------------- */
+
+  .reveal .controls {
+
+    bottom: 75px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Slide number
+     ---------------------------------------------------------- */
+
+  .reveal .slide-number {
+
+    bottom: 50px;
+
+    font-size: 14px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Custom controls
+     ---------------------------------------------------------- */
+
+  .custom-controls {
+
+    bottom: 10px;
+
+    gap: 4px;
+
+    padding:
+      5px
+      7px;
+
+  }
+
+
+  .custom-controls button {
+
+    font-size: 12px;
+
+    padding:
+      5px
+      7px;
+
+  }
+
+
+  .custom-controls label {
+
+    font-size: 12px;
+
+  }
+
+
+  #slideNumber {
+
+    width: 35px;
+
+    font-size: 13px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Presenter notes
+     ---------------------------------------------------------- */
+
+  .notes-container {
+
+    bottom: 105px;
+
+    font-size: 12px;
+
+  }
+
+
+  /* ----------------------------------------------------------
+     Hide footer on small screens
+     ---------------------------------------------------------- */
+
+  footer {
+
+    display: none;
+
+  }
+
+}

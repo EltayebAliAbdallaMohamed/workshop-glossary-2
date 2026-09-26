@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Presentation Master</title>
+
+  <!-- Reveal.js CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css"
+  >
+
+  <!-- Our presentation styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Presentation selector -->
+  <div class="top-bar">
+
+    <label for="presentationSelect">
+      Select Presentation:
+    </label>
+
+    <select id="presentationSelect">
+      <option value="">-- Choose a presentation --</option>
+    </select>
+
+  </div>
+
+
+  <!-- Reveal.js presentation -->
+  <div class="reveal">
+
+    <div class="slides" id="slidesContainer">
+      <!-- Slides will be created here by JavaScript -->
+    </div>
+
+  </div>
+
+
+  <!-- Custom controls -->
+  <div class="custom-controls">
+
+    <button id="speakSelection">
+      🔊 Speak Selection
+    </button>
+
+    <label for="slideNumber">
+      Go to:
+    </label>
+
+    <input
+      type="number"
+      id="slideNumber"
+      min="1"
+      max="99"
+      placeholder="#"
+      aria-label="Enter slide number"
+    >
+
+    <button id="goToSlide">
+      Go
+    </button>
+
+  </div>
+
+
+  <!-- Presenter notes display -->
+  <div
+    id="notesContainer"
+    class="notes-container"
+    aria-live="polite"
+  ></div>
+
+
+  <!-- Footer -->
+  <footer>
+    Created by <span>Eltayeb Mohamed</span> |
+    <span>© 2025</span>
+  </footer>
+
+
+  <!-- Reveal.js JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+
+  <!-- Our JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
